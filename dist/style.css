@@ -1,0 +1,235 @@
+
+     @media only screen and (max-width: 340px) {
+          .header_area .main-menu .navbar,
+          .header_area .main-menu .navbar .navbar-brand,
+          .site-main .subscribe-us-area .subscribe .subscribe-title,
+          .site-main .subscribe-us-area .subscribe .subscribe-title p,
+          h4,
+          .site-main .services-area,
+          .site-main .subscribe-us-area .subscribe {
+              padding: 2%;
+              margin: 0%;
+          }
+          .site-main .site-banner .site-title h1 {
+              font-size: 41px;
+          }
+          .site-main .subscribe-us-area .subscribe form .input-textbox input {
+              width: 15rem !important;
+          }
+          .site-main>.services-area .services {
+              width: 13rem;
+          }
+      }
+      /* if the viewport is equal to 340px or less than that */
+      @media only screen and (max-width: 792px) {
+          .site-main .about-area .about-title h2>span {
+              font-size: 31px;
+              letter-spacing: 10px;
+          }
+          .site-main .brand-area .experience-area .years-area {
+              padding-left: 1%;
+              width: 49%;
+          }
+          .site-main .brand-area .experience-area .bg-panel {
+              margin-left: 30%;
+              width: 80%;
+          }
+          .site-main .brand-area .experience-area .call-area {
+              padding-left: 3%;
+          }
+          .site-main .project-area .button-group button {
+              font: normal 500 18px/40px var(--roboto);
+          }
+          .site-main .about-area .about-title p {
+              padding: 0%;
+          }
+          .site-main .subscribe-us-area .subscribe form .input-textbox input {
+              width: 20rem;
+              margin: 5%;
+          }
+      }
+      /* if the viewport is equal to 1910px or less than that */
+      @media only screen and (max-width: 1910px) {
+          .header_area .main-menu .navbar {
+              padding: 1rem;
+          }
+          .container {
+              max-width: 90%;
+          }
+          .site-main .brand-area,
+          .site-main .services-area .services-title,
+          .site-main .about-area,
+          .site-main .text_container {
+              padding: 3% 4%;
+          }
+      }
+    
+
+body {
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color:black;
+    margin: 0mm;
+    height: 0%;
+  
+}
+.c-site-header{
+    display: flex;
+    text-align: center;
+    color:#157bbf;
+    background-color:#FFFFC2;
+    padding:10px 10px 10px 10px;
+    justify-content: center;
+    width: 100%;
+    box-shadow: rgba(10, 10, 10, 10.4) 0px 2px 0px;
+}
+nav{
+     margin-right:90px;
+     display: flex;
+ }
+.top{
+    text-align: center;
+    padding:58px 10px 10px 10px;
+    font-size:40px;
+    font-weight: bold;
+}
+#navigation{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#4863A0;
+    position: relative;
+    top: 5px; left: 40px;
+    list-style: none;
+}
+a:link { 
+    text-decoration: none;
+    color:#fc0a0a;
+    font-weight: bold;
+}
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+#previous{
+     display: flex;
+     margin:auto;
+     padding: 1px;
+     position: relative;
+     right: 50ch;
+     top: 77ch;
+     font-size: large;
+     padding: 0.5%;
+}
+    
+#next{
+     display: flex;
+     margin:auto;
+     padding: 1px;
+     position: absolute;
+     right: 43ch;
+     top: 99ch;
+     font-size: large;
+     padding: 0.5%;
+}
+
+     
+#img-cyf{
+     border-radius: 10%;
+     display: flex;
+     align-items: center;
+     margin:auto;
+     width: 500px;
+     padding: 1px;
+     position: relative;
+     top: 36ch;
+}
+
+main{
+     max-width: 80%;
+     margin:auto;  
+}
+.about-me{
+     padding:40px;
+     margin:50px;
+     text-align:left;
+     font-size:32px;
+     color:white;
+     position:absolute;
+     left:10%;
+     top:250px;
+     
+}
+#my-country{
+     padding:40px;
+     margin:50px;
+     text-align:center;
+     font-size:40px;
+     color:white;
+     position:absolute;
+     left:25%;
+     top:600px;
+
+}
+.about-the-course{
+     padding:40px;
+     margin:50px;
+     text-align:left;
+     font-size:32px;
+     color:white;
+}
+#about-the-course{
+     position:absolute;
+     left:10%;
+     top:75ch;
+}
+.video-title{
+     color:white;
+     padding:0 0 0 10%;
+     position:absolute;
+     top:88ch;
+     left:28%;
+     font-size:40px;
+}
+.video{
+     border-radius: 10%;
+     width: 27vw;
+     height:25vw;
+     position:absolute;
+     top:130ch;
+     left:37%;
+}
+
+.c-site-footer{
+     text-align: center;
+     color:#4863A0;
+     background-color:#FFFFC2;
+     padding:50px;
+     font-size:20px; 
+     margin: 0%;
+     position: relative;
+     top:200ch;
+     
+}
+.b{
+     padding:0 0 0 0%;
+}
+.c{
+     padding:0 0 0 0%;
+}
+
+#tests{
+     position: relative;
+     bottom: -1500pt;
+     
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
